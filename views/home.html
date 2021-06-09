@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="header-barra-todo">
+            <div class="header-barra">
+
+               <img width= 170 heigth=20 class="logo" src="../img/logo-mercado-liebre.svg" alt="Logo Mercado Liebre" ><a href="/views/home"></a></img>
+            
+               <form action="/search" method="GET" class="search-form">
+                  <input type="text" name="texto-dentro" placeholder="Buscar productos, marcas y más" class="search-form_input">
+                  <button type="submit" class="search-form_button"><i class="fas fa-search"></i></button>
+               </form>
+
+            </div> 
+            
+            <div>
+              <h2 class="cuotas-o-tarjeta">      
+                <i class="fas fa-money-bill-wave"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+             </h2>
+            </div>
+        </div>    
+
+        <nav class="barra-main">
+            <ul class="barra-principal">
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#tiendas">Tiendas oficiales</a></li>
+                <li><a href="#vender">Vender</a></li>
+                <li><a href="#ayuda">Ayuda</a></li>
+            </ul>
+        
+            <ul class="barra-secundaria">
+                <li><a href="/views/register">Creá tu cuenta</a><i class="fas fa-id-card"></i></li>
+                <li><a href="/views/login">Ingresá</a><i class="fas fa-sign-in-alt"></i></li>
+                <li><a href="#misCompras">Mis compras</a><i class="fas fa-shopping-basket"></i></li>
+            </ul>
+        </nav>
+
+        <a class="icono-burger"><i class="fas fa-bars fa-3x"></i></a>
+    </header>
+<img src="/img/img-home-banner.jpg" class="banner-img" alt="Banner">
+    <main>
+      
+      <div class="contenedor-cajas">
+
+        <div class="contenedor1">
+            <section class="cajaGeneral1">
+             <h3 class="titulares">Basado en tu última visita</h3>
+             <img class="imagen" width=292 heigth= 292 src="../img/img-macbook-pro-2019.jpg" alt="Macbook Pro 2019"></img>
+              <ul class="ul-info">
+                <li><i class="fas fa-shipping-fast fa-2x icono-envio"></i></li>
+                <div class="precio-oferta">
+                  <li class="precio">$230.000</li>
+                  <li class="oferta">20% OFF</li>
+                </div>
+                <li class="modelo">MacBook Pro 2019</li>
+              </ul>
+            </section>
+
+            <section class="cajaGeneral2">
+              <h3 class="titulares">Sección de ofertas</h3>
+              <img class="imagen" width=292 heigth= 292 src="../img/img-cafetera-moulinex.jpg" alt="Cafetera Moulinex"></img>
+              <ul class="ul-info">
+                <li><i class="fas fa-shipping-fast fa-2x icono-envio"></i></li>
+                <div class="precio-oferta">
+                  <li class="precio">$10.000</li>
+                  <li class="oferta">25% OFF</li>
+                </div>
+                <li class="modelo">Cafetera Moulinex 2020</li>
+               
+              </ul>
+            </section>
+
+        </div>
+
+        <div class="contenedor2">
+          <section class="cajaGeneral3">
+            <h3 class="titulares">Sección de ofertas</h3>
+            <img class="imagen" width=292 heigth= 292 src="../img/bicicleta.jpg" alt="Bicicleta para niños"></img>
+            <ul class="ul-info">
+                <li><i class="fas fa-shipping-fast fa-2x icono-envio"></i></li>
+                <div class="precio-oferta">
+                  <li class="precio">$30.000</li>
+                  <li class="oferta">30% OFF</li>
+                </div>
+                <li class="modelo">Bicicleta para niños</li>
+               
+            </ul>
+          </section>
+
+          <section class="cajaGeneral4">
+            <h3 class="titulares">Sección de ofertas</h3>
+            <img class="imagen" width=292 heigth= 292 src="../img/telescopio.jpg" alt=">Telescopio Refractor"></img>
+            <ul class="ul-info">
+                <li><i class="fas fa-shipping-fast fa-2x icono-envio"></i></li>
+                <div class="precio-oferta">
+                  <li class="precio">$49.999</li>
+                  <li class="oferta">10% OFF</li>
+                </div>
+                <li class="modelo">Telescopio Refractor Explorer80</li>
+               
+            </ul>
+          </section>
+          
+        </div>
+     </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-row">
+        <div class="apartadoEntero">
+            <div class="iconoFooter"><i class="far fa-credit-card fa-2x"></i></div>
+            <h4 class="tituloApartado">Pagá con tarjeta o efectivo</h4>
+            <p class="parrafoApartado">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!
+            </p>
+        </div>
+        <div class="apartadoEntero">
+            <div class="iconoFooter"><i class="fas fa-gift fa-2x"></i></div>
+            <h4 class="tituloApartado">Envío gratis desde $ 2.500</h4>
+            <p class="parrafoApartado">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.
+            </p>
+        </div>
+        <div class= "apartadoEntero">
+            <div class="iconoFooter"><i class="fas fa-user-shield fa-2x"></i></div>
+            <h4 class="tituloApartado">Seguridad, de principio a fin</h4>
+            <p class="parrafoApartado">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.
+            </p>
+        </div>
+       </div>
+     <section class="copyright">
+        <h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
+    </section>   
+    </footer>  
+    
+</body>
+</html>
