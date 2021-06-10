@@ -435,16 +435,13 @@ main{
         display:flex;
         width:40%;
     }
-    .barra-main li{
-        margin: 0 5%;
-    }
-
     .contenedor-cajas{
         display:flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         width: 100%;
+        margin:auto;
     }
     .contenedor1{
         width: 50%;
@@ -452,7 +449,6 @@ main{
     .contenedor2{
         width: 50%;
     }
-   
     .cuotas-o-tarjeta{
         max-width: 30vw;   
         justify-content: center;
@@ -525,11 +521,23 @@ main{
     .contenedor-formulario{
         display: flex;
         flex-direction: row;
+        margin: auto;
+        margin-left: 3%;
+    }
+    .formulario h2{
+        margin-left: 3%;
     }
     .foto-register{
         display: flex;
-        width:100%;
-        justify-content: space-around;
-        align-items: center;
+        width: 100%;
+    }
+    .foto-register img{
+        display: flex;
+        width: 90%;
+        margin-left: 5%;
+        justify-content: center;
+        align-items:center;
+        height: auto;
+    
     }
 }
